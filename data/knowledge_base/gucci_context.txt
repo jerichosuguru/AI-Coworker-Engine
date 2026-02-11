@@ -1,0 +1,24 @@
+# Gucci Group Company Context
+
+## About Gucci Group
+Gucci Group is a luxury fashion conglomerate that operates 9 iconic brands:
+1. Gucci - Italian luxury fashion house founded 1921
+2. Saint Laurent (YSL) - French luxury brand founded 1961
+3. Balenciaga - Spanish luxury fashion house founded 1919
+4. Bottega Veneta - Italian leather goods brand founded 1966
+5. Alexander McQueen - British luxury fashion house founded 1992
+6. Brioni - Italian menswear founded 1945
+7. Boucheron - French luxury jewelry founded 1858
+8. Pomellato - Italian jewelry founded 1967
+9. Qeelin - Asian-inspired jewelry founded 2004
+
+## Company Mission
+To be the world's leading luxury group, fostering creativity and craftsmanship 
+while respecting each brand's unique DNA and heritage.
+
+## Core Values
+- Creativity and Innovation: Pushing boundaries in fashion and design
+- Excellence and Quality: Uncompromising standards in craftsmanship
+- Heritage and Craftsmanship: Honoring traditional techniques
+- Sustainability and Responsibility: Environmental and social impact
+- Diversity and Inclusion: Global perspectives and representation

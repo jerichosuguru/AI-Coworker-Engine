@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Co-worker Engine - Edtronaut</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="badge">Edtronaut AI Assignment</div>
+                <h1 class="hero-title">
+                    🤖 AI Co-worker Engine
+                </h1>
+                <p class="hero-subtitle">
+                    Intelligent NPC System for Job Simulations
+                </p>
+                <p class="hero-description">
+                    Multi-persona AI agents with personality, memory, and intelligent supervision
+                </p>
+                <div class="hero-buttons">
+                    <a href="/docs" class="btn btn-primary">
+                        📚 API Documentation
+                    </a>
+                    <a href="#features" class="btn btn-secondary">
+                        ✨ Explore Features
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stats Section -->
+    <div class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">AI NPCs</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">5</div>
+                    <div class="stat-label">Age Groups</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">8/10</div>
+                    <div class="stat-label">Tests Passed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">0.5s</div>
+                    <div class="stat-label">Response Time</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="features-section" id="features">
+        <div class="container">
+            <h2 class="section-title">Core Features</h2>
+            <p class="section-subtitle">Built for realistic, accessible, and secure job simulations</p>
+
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">🎭</div>
+                    <h3 class="feature-title">Multi-Persona AI Agents</h3>
+                    <p class="feature-description">
+                        Three distinct NPCs with unique personalities: CHRO (Elena), CEO (Alessandro),
+                        and Regional Manager (Marie). Each has expertise, preferences, and boundaries.
+                    </p>
+                    <ul class="feature-list">
+                        <li>Consistent personality across conversations</li>
+                        <li>Domain-specific knowledge</li>
+                        <li>Relationship tracking (±10 score)</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">🎬</div>
+                    <h3 class="feature-title">Director Supervision</h3>
+                    <p class="feature-description">
+                        Invisible agent monitors conversations, detects stuck loops, and provides
+                        intelligent guidance when users need help.
+                    </p>
+                    <ul class="feature-list">
+                        <li>Semantic similarity detection (0.85 threshold)</li>
+                        <li>Off-topic redirection</li>
+                        <li>Progress nudging</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">📚</div>
+                    <h3 class="feature-title">RAG Knowledge Base</h3>
+                    <p class="feature-description">
+                        Vector search over Gucci Group context, 4 Pillars framework, and HR best
+                        practices using FAISS embeddings.
+                    </p>
+                    <ul class="feature-list">
+                        <li>3 documents indexed</li>
+                        <li>Sentence-Transformer embeddings</li>
+                        <li>NPC-specific filtering</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="feature-card">
+                    <div class="feature-icon">👶</div>
+                    <h3 class="feature-title">Age Adaptation</h3>
+                    <p class="feature-description">
+                        Content adapts for 5 age groups with vocabulary, examples, and encouragement
+                        appropriate for each level.
+                    </p>
+                    <ul class="feature-list">
+                        <li>8-12: Simple words, school examples</li>
+                        <li>13-15: Clear language, student activities</li>
+                        <li>16-18: Professional + context</li>
+                        <li>19-25: Career development framing</li>
+                        <li>26+: Peer-level professional</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="feature-card">
+                    <div class="feature-icon">♿</div>
+                    <h3 class="feature-title">Accessibility</h3>
+                    <p class="feature-description">
+                        Universal design for visual, auditory, motor, and cognitive accessibility needs.
+                    </p>
+                    <ul class="feature-list">
+                        <li>Screen reader support (ARIA)</li>
+                        <li>Text simplification (3 levels)</li>
+                        <li>Audio descriptions</li>
+                    </ul>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3 class="feature-title">Security & Privacy</h3>
+                    <p class="feature-description">
+                        Multi-layer protection with authentication, encryption, and GDPR compliance.
+                    </p>
+                    <ul class="feature-list">
+                        <li>JWT authentication (HS256)</li>
+                        <li>Jailbreak detection</li>
+                        <li>Rate limiting (60/min, 1000/hr)</li>
+                        <li>PII encryption (Fernet)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NPCs Section -->
+    <div class="npcs-section">
+        <div class="container">
+            <h2 class="section-title">Meet the NPCs</h2>
+            <p class="section-subtitle">Each with unique personality and expertise</p>
+
+            <div class="npcs-grid">
+                <!-- CHRO -->
+                <div class="npc-card">
+                    <div class="npc-header chro-color">
+                        <div class="npc-icon">👩‍💼</div>
+                        <h3 class="npc-name">Dr. Elena Marchetti</h3>
+                        <p class="npc-role">Chief Human Resources Officer</p>
+                    </div>
+                    <div class="npc-body">
+                        <p><strong>Personality:</strong> Professional but warm, data-informed but people-first</p>
+                        <p><strong>Expertise:</strong> 4 Pillars Framework, 360° Feedback, Leadership Coaching</p>
+                        <p><strong>Loves:</strong> Inter-brand mobility, behavioral indicators</p>
+                        <p><strong>Dislikes:</strong> One-size-fits-all approaches, copying frameworks</p>
+                    </div>
+                </div>
+
+                <!-- CEO -->
+                <div class="npc-card">
+                    <div class="npc-header ceo-color">
+                        <div class="npc-icon">👨‍💼</div>
+                        <h3 class="npc-name">Alessandro Ricci</h3>
+                        <p class="npc-role">Chief Executive Officer</p>
+                    </div>
+                    <div class="npc-body">
+                        <p><strong>Personality:</strong> Strategic, brand-protective, ROI-focused</p>
+                        <p><strong>Expertise:</strong> Business strategy, brand DNA, competitive landscape</p>
+                        <p><strong>Loves:</strong> Competitive advantage, clear ROI</p>
+                        <p><strong>Dislikes:</strong> Corporate bureaucracy, threats to brand autonomy</p>
+                    </div>
+                </div>
+
+                <!-- Regional Manager -->
+                <div class="npc-card">
+                    <div class="npc-header rm-color">
+                        <div class="npc-icon">👩‍💻</div>
+                        <h3 class="npc-name">Marie Dubois</h3>
+                        <p class="npc-role">Regional Manager - Europe</p>
+                    </div>
+                    <div class="npc-body">
+                        <p><strong>Personality:</strong> Practical, realistic, candid about constraints</p>
+                        <p><strong>Expertise:</strong> Implementation, regional operations, change management</p>
+                        <p><strong>Loves:</strong> Practical solutions, realistic timelines</p>
+                        <p><strong>Dislikes:</strong> Unrealistic workload, lack of regional adaptation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tech Stack Section -->
+    <div class="tech-section">
+        <div class="container">
+            <h2 class="section-title">Technology Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <div class="tech-name">Claude 3.5 Sonnet</div>
+                    <div class="tech-desc">Anthropic LLM</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-name">FastAPI</div>
+                    <div class="tech-desc">Python Backend</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-name">FAISS</div>
+                    <div class="tech-desc">Vector Search</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-name">Redis</div>
+                    <div class="tech-desc">Session Storage</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-name">Sentence Transformers</div>
+                    <div class="tech-desc">Embeddings</div>
+                </div>
+                <div class="tech-item">
+                    <div class="tech-name">JWT + Fernet</div>
+                    <div class="tech-desc">Security</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Section -->
+    <div class="cta-section">
+        <div class="container">
+            <h2 class="cta-title">Ready to Explore?</h2>
+            <p class="cta-description">Check out the interactive API documentation or dive into the code</p>
+            <div class="cta-buttons">
+                <a href="/docs" class="btn btn-large btn-primary">
+                    📚 Swagger UI
+                </a>
+                <a href="/redoc" class="btn btn-large btn-secondary">
+                    📖 ReDoc
+                </a>
+                <a href="/health" class="btn btn-large btn-outline">
+                    💚 Health Check
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3>AI Co-worker Engine</h3>
+                    <p>Edtronaut AI Engineer Intern Assignment</p>
+                </div>
+                <div class="footer-right">
+                    <p>Version 1.0.0 | February 2026</p>
+                    <p>Built with ❤️ using FastAPI + Claude AI</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

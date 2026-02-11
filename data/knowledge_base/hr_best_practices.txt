@@ -1,0 +1,21 @@
+# HR Best Practices - 360 Feedback
+
+## Rater Selection
+- Manager (mandatory)
+- 3-5 Peers at same level
+- 3-5 Direct reports (for managers)
+- Self-assessment
+
+## Survey Design
+- 30-50 behavioral questions
+- Frequency scales (Never to Always)
+- Anonymous peer/direct report responses
+- Available in all corporate languages
+
+## Coaching Program
+- 6 sessions over 6 months
+- 90 minutes each session
+- Focus: Process feedback, develop behaviors, measure progress
+
+## Rollout Strategy
+Train-the-trainer model: Group HR → Regional leads → Local HR → Brands
