@@ -577,43 +577,43 @@ AI-Coworker-Engine/
 ├── .env.example                # Environment variables template
 ├── docker-compose.yml          # Docker orchestration
 ├── Dockerfile                  # Docker image definition
-├── .dockerignore              # Docker ignore patterns
-├── .gitignore                 # Git ignore patterns
-├── test_system.py             # Test suite
-├── create_data_files.py       # Data generation script
+├── .dockerignore               # Docker ignore patterns
+├── .gitignore                  # Git ignore patterns
+├── test_system.py              # Test suite
+├── create_data_files.py        # Data generation script
 │
-├── models/                    # Data models
+├── models/                     # Data models
 │   ├── __init__.py
-│   ├── state.py              # Session state models
-│   ├── personas.py           # NPC personality definitions
-│   └── user_profile.py       # User profile models
+│   ├── state.py                # Session state models
+│   ├── personas.py             # NPC personality definitions
+│   └── user_profile.py         # User profile models
 │
-├── agents/                    # AI agents
+├── agents/                     # AI agents
 │   ├── __init__.py
-│   ├── npc_agent.py          # NPC conversation handler
-│   ├── director_agent.py     # Supervision & guidance
-│   ├── knowledge_base.py     # RAG retrieval
-│   └── accessibility_agent.py # Accessibility adaptations
+│   ├── npc_agent.py            # NPC conversation handler
+│   ├── director_agent.py       # Supervision & guidance
+│   ├── knowledge_base.py       # RAG retrieval
+│   └── accessibility_agent.py  # Accessibility adaptations
 │
-├── services/                  # Business logic
+├── services/                   # Business logic
 │   ├── __init__.py
-│   ├── session_manager.py    # Session CRUD operations
-│   ├── security_service.py   # Auth, encryption, validation
-│   └── adaptation_service.py # Age & ability adaptations
+│   ├── session_manager.py      # Session CRUD operations
+│   ├── security_service.py     # Auth, encryption, validation
+│   └── adaptation_service.py   # Age & ability adaptations
 │
-├── api/                       # API layer
+├── api/                        # API layer
 │   ├── __init__.py
-│   ├── routes.py             # REST endpoints
-│   ├── websocket.py          # WebSocket handler
-│   └── middleware.py         # CORS, logging, security
+│   ├── routes.py               # REST endpoints
+│   ├── websocket.py            # WebSocket handler
+│   └── middleware.py           # CORS, logging, security
 │
-├── utils/                     # Utilities
+├── utils/                      # Utilities
 │   ├── __init__.py
-│   ├── validators.py         # Input validation
-│   ├── text_simplifier.py    # Text simplification
-│   └── speech_service.py     # TTS/STT integration
+│   ├── validators.py           # Input validation
+│   ├── text_simplifier.py      # Text simplification
+│   └── speech_service.py       # TTS/STT integration
 │
-├── data/                      # Data files
+├── data/                       # Data files
 │   ├── knowledge_base/
 │   │   ├── gucci_context.txt
 │   │   ├── competency_framework.txt
@@ -622,7 +622,7 @@ AI-Coworker-Engine/
 │       ├── age_adapted_prompts.json
 │       └── accessibility_prompts.json
 │
-└── static/                    # Frontend files
+└── static/                     # Frontend files
     ├── index.html
     ├── css/
     │   ├── style.css 
