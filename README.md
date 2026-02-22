@@ -154,10 +154,10 @@ This project implements an AI-powered NPC (Non-Player Character) system for the 
                        ▼
 ┌─────────────────────────────────────────────────────────┐
 │                   NPC AGENTS LAYER                      │
-│  ┌──────────┐    ┌──────────┐    ┌──────────┐         │
-│  │   CHRO   │    │   CEO    │    │ Regional │         │
-│  │  Elena   │    │Alessandro│    │  Marie   │         │
-│  └──────────┘    └──────────┘    └──────────┘         │
+│  ┌──────────┐    ┌──────────┐    ┌──────────┐           │
+│  │   CHRO   │    │   CEO    │    │ Regional │           │
+│  │  Elena   │    │Alessandro│    │  Marie   │           │
+│  └──────────┘    └──────────┘    └──────────┘           │
 └──────────────────────┬──────────────────────────────────┘
                        │
                        ▼
@@ -417,11 +417,11 @@ Hidden Constraints:
 
 | Age Range | Label | Vocabulary | Examples | Encouragement |
 |-----------|-------|-----------|----------|---------------|
-| **8-12** | Children | "skill" not "competency" | School, sports teams | High (every response) |
+| **8-12**  | Children | "skill" not "competency" | School, sports teams | High (every response) |
 | **13-15** | Teens | Moderate simplification | Student government, clubs | High (frequent) |
 | **16-18** | Young Adults | Business terms + context | Internships, first jobs | Moderate |
 | **19-25** | College/Early Career | Full vocab + jargon explanations | Rotational programs, career development | Moderate |
-| **26+** | Professionals | Peer-level professional | Executive strategy | Minimal |
+| **26+**   | Professionals | Peer-level professional | Executive strategy | Minimal |
 
 ### **Example Adaptations**
 
@@ -625,8 +625,7 @@ AI-Coworker-Engine/
 └── static/                    # Frontend files
     ├── index.html
     ├── css/
-    │   ├── style.css
-    │   └── swagger-custom.css
+    │   ├── style.css 
     └── js/
         └── app.js
 ```
@@ -663,8 +662,6 @@ MIT License - See LICENSE file for details
 - **Edtronaut** - Assignment and learning platform
 
 ---
-
-## 📞 Contact
 
 ## 📞 Contact
 
